@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.holder {
+    margin: 20px 20px;
+    width: 600px;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    height: 100px;
+    flex-basis: 180px;
+}
+
+#one {
+    background-color: red;
+    order: -1;
+    flex-basis: 50%;
+}
+
+#two {
+    background-color: cyan;
+    order: 3;
+}
+
+#three {
+    background-color: purple;
+    order: 2;
+}
+
+#four {
+    background-color: green;
+    order: 4;
+}
+
+#five {
+    background-color: orange;
+    order: 1;
+    flex-basis: 50%;
+}

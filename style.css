@@ -12,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
   }
   .item {
     height: 100px;
@@ -33,12 +34,14 @@
   #three {
     background-color: purple;
     order: 2;
+    flex-grow: 1;
   
   }
   
   #four {
     background-color: green;
     order: 4;
+    flex-grow: 1;
      
   }
   #five {
